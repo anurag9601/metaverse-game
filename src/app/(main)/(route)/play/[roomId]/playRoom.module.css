@@ -1,0 +1,28 @@
+.playRoomContainer{
+    background: url("../../../../../assets/images/white-boxed-background.jpg");
+    height: 100dvh;
+    width: 100dvw;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.user{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.user p{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.userBody{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+}

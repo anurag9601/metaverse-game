@@ -1,0 +1,75 @@
+.createRoomMainContainer{
+    width: 330px;
+    height: fit-content;
+    padding: 15px;
+    background-color: #fefee3;
+    border-radius: 10px;
+}
+
+.createRoomHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createRoomHead h3{
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.createRoomHead span{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.inputBoxHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -10px;
+}
+
+.inputBoxHead p{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.inputBoxHead span{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.setPasswordOption{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.setPasswordOption p{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.setPasswordOption input{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.warning{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 800;
+    margin: 10px 0;
+    color: #6c757d;
+}
